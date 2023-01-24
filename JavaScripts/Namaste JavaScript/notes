@@ -1,0 +1,82 @@
+// "Everything in Javascript happens inside an Execution Context"
+
+// variable Enviroment               Thread of Execution
+// Memory                              code
+//  key:value
+//   a:10
+//   fn:{.....}
+
+
+
+// "JavaScript is a synchronous single-thread language"
+
+// What happens when you run JavaScript code?
+
+// var n=2;
+//  function square(num){
+//    var ans = num*num;
+//    return ans;
+// }
+
+// var square2 = square(n);
+// var square4=square(4);
+
+
+// Memory                    code
+// n:
+// Square:
+
+
+
+
+// var x=7;
+
+// function getName(){
+//  console.log("Hello");
+// }
+
+
+// getName();
+// console.log(x);
+
+// o/p  Hello
+//      7
+
+
+// getName();
+// console.log(x);
+// var x=7;
+
+// function getName(){
+//  console.log("Hello");
+// }
+
+//  o/p  Hello
+//        undefined
+ 
+
+// var x=1;
+// a(); 
+// b();
+// console.log(x);
+
+// function a(){
+//    var x=10;
+//  console.log(x);
+// }
+
+// function b(){
+//     var x=100;
+//    console.log(x);
+// }
+
+// o/p 
+// 10
+// 100
+// 1
+
+// Memory              code
+// x:                    var x=1
+// undefined
+// a:{...}
+// b:{...}

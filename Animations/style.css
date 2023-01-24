@@ -1,0 +1,54 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:20%;
+    left:20%;
+    background-color: blanchedalmond;
+    /* transform: scale(1.5,0.4);*/
+     /*transform: translate(10%,100px);*/
+
+ 
+/*
+
+div:hover{
+    transform: scale(1.5)  translate(150px);
+} 
+*/
+
+.cube{
+     height: 200px;
+     width: 200px;
+     position: relative;
+     margin: 100px;
+     transform-style: preserve-3d;
+     perspective: 1000px;
+     transform: rotate(25deg) rotateY(-25deg);
+
+}
+.face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:20%;
+    left:20%;
+    transition: all ls;
+    transform-style: preserve-3d;
+    perspective: 100px;
+
+}
+
+.one{
+    background-color:skyblue;
+}
+
+/*
+.one:hover{
+    transform: rotate(40deg) rotateY(40deg);
+}
+*/
+
+.two{
+     background-color: orange;
+     transform: rotateY(90deg);
+}

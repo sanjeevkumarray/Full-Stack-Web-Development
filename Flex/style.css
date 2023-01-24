@@ -1,0 +1,29 @@
+#container{
+    height: 75vh;
+    width: 75vw;
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+#container div{
+    height: 200px;
+     width: 200px;
+
+}
+  #div1{
+       background-color: antiquewhite;
+  }
+  #div2{
+      background-color: blue;
+  }
+  #div3{
+      background-color: blueviolet;
+  }
+  #div4{
+      background-color: azure;
+  }

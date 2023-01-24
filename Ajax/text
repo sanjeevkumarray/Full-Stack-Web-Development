@@ -1,0 +1,37 @@
+AJAX Full From
+
+Asynchronous JavaScripts  And XML
+
+AJAX USE
+
+TO make  asynchronous  requests
+TO load new content without reloading the page.
+
+
+AJAX Object
+
+XMLHttpRequest
+
+
+
+HTTP
+Hypertext Transfer Protocol
+
+
+1.Client opens up connection with server.
+2.Client makes a request to server.
+3.Server will process request .
+4.server will send response to the client.
+5.client will close the connection.
+
+
+API
+Application Programming Interface.
+
+
+JSON Stand for
+JavaScripts Object Notation
+
+
+404
+The server can not find the requested page
