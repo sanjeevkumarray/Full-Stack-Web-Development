@@ -34,5 +34,5 @@ Web browser (such as Google Chrome, Firefox, or Safari)
 
 Node.js version 12 or above
 
-npm (Node Package Manager) version 6 or above.
+npm (Node Package Manager) version 6 or above.'
 
